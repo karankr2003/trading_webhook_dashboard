@@ -232,16 +232,6 @@ trading-dashboard/
 - Invalid JSON
 - Empty database state
 
-## Evaluation Criteria Alignment
-
-| Criteria | Weight | Implementation Highlights |
-|----------|--------|---------------------------|
-| Code Quality | 30% | TypeScript, type hints, clean architecture, separation of concerns |
-| Backend APIs | 25% | FastAPI with validation, RESTful design, auto-documentation, error handling |
-| Frontend UI | 20% | React + TypeScript, responsive, real-time updates, error handling |
-| Database Design | 15% | PostgreSQL with proper schema, constraints, indexes, ORM |
-| Documentation | 10% | Comprehensive README, quick start guide, API docs, inline comments |
-
 ## Design Decisions
 
 ### Why FastAPI?
