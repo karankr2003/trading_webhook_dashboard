@@ -29,8 +29,8 @@ Before running this application, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd trading-dashboard
+git clone https://github.com/karankr2003/trading_webhook_dashboard.git
+cd trading_webhook_dashboard
 ```
 
 ### 2. Database Setup
