@@ -1,0 +1,49 @@
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.1rem;
+  margin: 1.2rem 0 1.4rem;
+}
+
+.stat-card {
+  background: linear-gradient(145deg, #ffffff 0%, #f8fbff 100%);
+  padding: 1.3rem 1.2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  text-align: left;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.1);
+}
+
+.stat-card h3 {
+  margin: 0 0 0.35rem 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #64748b;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.stat-card.buy .stat-value {
+  color: #16a34a;
+}
+
+.stat-card.sell .stat-value {
+  color: #ef4444;
+}
+
+.stat-card.total .stat-value {
+  color: #2563eb;
+}
